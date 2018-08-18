@@ -1,0 +1,27 @@
+body {
+	background:linear-gradient(90deg, #03a9f3, 
+									  #f441a5);
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	cursor: default;
+	width: 45px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	text-align: left;
+	font-size: 5em;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+	transition: .5s;
+}
+
+h1:hover {
+	filter: blur(30px);
+	color: white;
+	opacity: 0;
+}
+
+/* Reza Khareisa Putra | Reznov */
